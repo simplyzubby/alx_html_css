@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Website</title>
+    <link href="base.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+    <body> 
+        <header>
+            <ul>
+          <li> <a href="index.html">Go back home</a> </li>
+            <main>
+                <article>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Your financial future is too important to outsource.<br><br>Slush puts you fully in control. <br><br>No seed phrases. No banks. Just built-in DeFi, seamless swaps, and a future you own.<br><br>👉 Try Slush. Bank on yourself — not the system.<a href="https://t.co/9AWSiXyXkW">https://t.co/9AWSiXyXkW</a></p>&mdash; Slush (@SlushWallet) <a href="https://twitter.com/SlushWallet/status/1938018872218788064?ref_src=twsrc%5Etfw">June 25, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>    
+  </article>
+   <aside>
+                    <p>placeholder to add comment thread later</p>
+                </aside>
+
+   <footer>
+                   Made by <Zubaida> - <a href="https://github.com/simplyzubby" target="_blank">here</a>
+                </footer>
+            </main>
+        </header>
+    </body>
+    </head>
+</html>
