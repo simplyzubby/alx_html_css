@@ -1,0 +1,81 @@
+header{
+    background-image: url("Object.png");
+     background-size: cover;        /* Makes the image fill the header */
+    background-position: center;   /* Keeps it centered */
+    background-repeat: no-repeat; 
+    width: 1440px;
+    height: 1093px;
+  
+}
+
+
+    h1 {
+    color: white;       /* Text color */
+    font-size: 51px;   /* Font size */
+    text-align: center; /* Center the text */
+    font-family: Arial, sans-serif; /* Font style */
+}
+    .words{
+    display: flex;               /* ← puts all 4 images in one row */
+    justify-content: center;     /* ← centers them horizontally */
+    gap: 60px;                   /* ← spacing between each person */
+    margin-top: 40px;   
+     text-align: center;       
+
+}
+
+.pros {
+    display: flex;               /* ← puts all 4 images in one row */
+    justify-content: center;     /* ← centers them horizontally */
+    gap: 60px;                   /* ← spacing between each person */
+    margin-top: 40px;            /* spacing from text above */
+}
+
+.pro {
+    text-align: center;          /* ← centers image + text below it */
+}
+
+.pro img {
+    width: 120px;                /* adjust to match Figma */
+    height: 120px;
+    border-radius: 50%;          /* makes images circular */
+    object-fit: cover;
+}
+.hero {
+  text-align: center;      /* centers all content horizontally */
+  display: flex;
+  flex-direction: column;  /* stacks items vertically */
+  align-items: center;     /* ensures spans + button line up */
+  gap: 15px;               /* spacing between each line */
+  color: white;            /* if needed, like in your design */
+}
+
+button{
+   margin-top: 20px;
+    padding: 12px 25px;
+    background: #C271FF; /* purple from Figma */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}   
+
+
+.plat{
+    display: flex;
+  justify-content: flex-end; /* left align horizontally */
+  align-items: flex-end;    
+    gap: 10px;                   /* ← spacing between each person */
+    margin-top: 100px;   
+     text-align: right;
+  
+}
+.purple {
+  color: #C271FF;
+}
+
+nav a {
+  color: white;
+  text-decoration: none; /* optional: removes underline */
+}
