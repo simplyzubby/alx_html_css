@@ -8,7 +8,9 @@ header{
   
 }
 
-
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
     h1 {
     color: white;       /* Text color */
     font-size: 51px;   /* Font size */
@@ -79,3 +81,91 @@ nav a {
   color: white;
   text-decoration: none; /* optional: removes underline */
 }
+
+.color{
+    background-color: #C271FF;
+    text-align:center;
+    
+    color: white;
+
+}
+.quote-text{
+   text-align: center;
+   top: 0px;
+    display: flex;
+  flex-direction: column;  /* stacks items vertically */
+  align-items: center;  
+}
+.image-container {
+  position: relative;        /* REQUIRED */
+  width: max-content;        /* keeps container only as wide as image */
+}
+
+.bg {
+  display: block;            /* ensures no extra inline spacing */
+}
+
+.overlay {
+  position: absolute;        /* REQUIRED */
+  top: 30px;                    /* place at top */
+  left: 30px;                   /* place at left */
+  z-index: 20;               /* ensure it's on top */
+}
+.lines{
+    display: flex;               /* ← puts all 4 images in one row */
+    justify-content: center;     /* ← centers them horizontally */
+    gap: 60px;                   /* ← spacing between each person */
+    margin-top: 40px
+
+}
+.line {
+    text-align: center;
+    display: flex;  
+    justify-content: space-between;    /* ← centers them horizontally */
+    gap: 60px;                   /* ← spacing between each person */
+    margin-top: 40px; 
+     text-align: center;
+    margin-bottom: 40px;
+     width: 22%;           /* spacing from text above */
+}        /* ← centers image + text below it */
+
+
+.sg{
+    width: 255px;                /* adjust to match Figma */
+    height: 154px;
+    border-radius: 50%;          /* makes images circular */
+    object-fit: cover;
+}
+.change{
+     color: #C271FF;
+}
+.middle{
+    text-align:center
+}
+.sc{
+    color: #C271FF;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* centers vertically (optional) */
+}
+.membership{
+    background-color: #071629;
+    color: white;
+    font-family: source sans pro;
+}
+h4{
+    color:#C271FF
+}
+
+
+
+footer {
+    background: #071629;
+    color: white;
+    padding: 40px 120px;
+}
+.faq{
+    text-align: center;
+}s
