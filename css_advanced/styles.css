@@ -18,14 +18,21 @@ body {
     font-family: Arial, sans-serif; /* Font style */
 }
     .words{
-    display: flex;               /* ← puts all 4 images in one row */
-    justify-content: center;     /* ← centers them horizontally */
-    gap: 60px;                   /* ← spacing between each person */
-    margin-top: 40px;   
-     text-align: center;       
-
+   display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* align items vertically */
+    gap: 40px;                 /* space between items */
+    margin-top: 0.5px;
 }
-
+.words p{
+  
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+.rr{
+  margin-bottom: 10px;
+}
 .pros {
     display: flex;               /* ← puts all 4 images in one row */
     justify-content: center;     /* ← centers them horizontally */
@@ -53,7 +60,7 @@ body {
 }
 
 button{
-   margin-top: 20px;
+   margin-top: 30px;
     padding: 12px 25px;
     background: #C271FF; /* purple from Figma */
     color: white;
@@ -61,16 +68,23 @@ button{
     border-radius: 25px;
     font-weight: bold;
     cursor: pointer;
+    text-align: center;
 }   
 
-
+.rp{
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
 .plat{
     display: flex;
   justify-content: flex-end; /* left align horizontally */
   align-items: flex-end;    
     gap: 10px;                   /* ← spacing between each person */
-    margin-top: 100px;   
+    margin-top: 0.3px;   
      text-align: right;
+     margin-right: 50px;
+     
   
 }
 .purple {
@@ -83,11 +97,43 @@ nav a {
 }
 
 .color{
-    background-color: #C271FF;
-    text-align:center;
-    
+     background-color: #C271FF;
+    padding: 60px 0;
+}
+.color-content{
+   max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
     color: white;
+     display: flex;           /* <-- This makes it horizontal */
+    align-items: center;     /* vertically center */
+    gap: 40px;          
+}
+.color-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.quote{
+   font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;  
+}
 
+.author span {
+    font-size: 16px;
+    font-weight: normal;
+    display: block;   
+}
+.text {
+    color: white;
+    max-width: 600px;         /* so long sentences wrap properly */
 }
 .quote-text{
    text-align: center;
@@ -166,6 +212,36 @@ footer {
     color: white;
     padding: 40px 120px;
 }
-.faq{
+.faq {
     text-align: center;
-}s
+    padding: 80px 0;
+}
+
+.faq h2 {
+    font-size: 32px;
+    margin-bottom: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.faq-container {
+    width: 70%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.faq-item1{
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.faq-item p {
+    font-size: 14px;
+    color: #6a6a6a;
+    text-align: right;
+    line-height: 1.6;
+}
