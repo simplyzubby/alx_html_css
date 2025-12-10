@@ -1,0 +1,182 @@
+header{
+    background-image:url("headphones_hero_1.jpg");
+    background-size: cover;        /* Makes the image fill the header */
+    background-position: center;   /* Keeps it centered */
+    background-repeat: no-repeat; 
+    width: 1440px;
+    height: 900px;
+  
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-size: 49px;
+    font-family:  'Source Sans Pro', sans-serif;
+}
+
+.hero {
+  text-align: center;      /* centers all content horizontally */
+  display: flex;
+  flex-direction: column;  /* stacks items vertically */
+  align-items: center;     /* ensures spans + button line up */
+  gap: 100px;               /* spacing between each line */
+  color: white; 
+         
+}
+.hero h1{
+ margin-bottom: 25px;  
+
+
+}
+.chance{
+    margin-top: 200px;
+    gap:10px;
+}
+
+button{
+    padding: 24px 30px;
+    background:brown;
+     color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.log{
+     display: flex;
+  justify-content: flex-end; /* left align horizontally */
+  align-items: flex-end;    
+    gap: 10px;                   /* ← spacing between each person */
+    margin-top: 0.3px;   
+     text-align: right;
+     margin-right: 100px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+
+}
+
+.red{
+    margin-left: 200px;
+    margin-top:2px;
+    color:white;
+}
+
+.wwd2{
+    text-align: center;
+}
+
+.pros {
+    display: flex;               /* ← puts all 4 images in one row */
+    justify-content: center;     /* ← centers them horizontally */
+    gap: 60px;                   /* ← spacing between each person */
+    margin-top: 40px;            /* spacing from text above */
+}
+
+.pro {
+    text-align: center;  
+      position: relative;
+    display: inline-block;        /* ← centers image + text below it */
+}
+
+.pro img {
+    width: 150px;                /* adjust to match Figma */
+    height: 150px;
+    border-radius: 50%;          /* makes images circular */
+    object-fit: cover;
+    display: block;
+}
+.pro .text{
+     position: absolute;
+    top: 30%;       /* vertical position */
+    left: 50%;      /* horizontal position */
+    transform: translate(-50%, -50%); /* center it */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.our-results{
+     background-image:url("headphones_hero_2.jpg");
+    background-size: cover;        /* Makes the image fill the header */
+    background-position: center;   /* Keeps it centered */
+    background-repeat: no-repeat; 
+    width: 1440px;
+    height: 500px;
+     margin-top: 100px;
+     gap:20px;
+
+}
+
+.or{
+    text-align: center;
+    justify-content:center;
+    color: rgba(255, 255, 255, 0.997);
+    margin-top: 100px;
+    gap:px;
+}
+.or2{
+     text-align: center;
+    justify-content:center;
+    color: rgba(255, 255, 255, 0.997);
+    margin-bottom: 100px;
+}
+
+.pro .text2{
+     position: absolute;
+    top: 60%;       /* vertical position */
+    left: 50%;      /* horizontal position */
+    transform: translate(-50%, -50%); /* center it */
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cs{
+    width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.cs h2{
+      text-align: center;
+       margin-bottom: 15px;
+}
+
+.cs form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cs input{
+     margin-top: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.cs button {
+    margin-top: 15px;
+    padding: 12px;
+    background: rgb(171, 53, 53);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    margin-left: 80px;
+}
+
+.cs button:hover {
+    background: #005fcc;
+}
